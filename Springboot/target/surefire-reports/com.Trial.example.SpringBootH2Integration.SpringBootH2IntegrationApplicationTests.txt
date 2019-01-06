@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.Trial.example.SpringBootH2Integration.SpringBootH2IntegrationApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.745 s - in com.Trial.example.SpringBootH2Integration.SpringBootH2IntegrationApplicationTests

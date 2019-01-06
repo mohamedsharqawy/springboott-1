@@ -1,0 +1,91 @@
+# Created at 2019-01-06T13:44:58.226
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-01-06T13:44:59.479
+Unexpected IOException with stream: 2019-01-06 13:44:59.478  INFO 1955 --- [           main] .SpringBootH2IntegrationApplicationTests : Starting SpringBootH2IntegrationApplicationTests on Mohameds-MacBook-Pro.local with PID 1955 (started by mohamedelsharqawy in /Users/mohamedelsharqawy/Desktop/Cores/Springboot)
+
+
+# Created at 2019-01-06T13:44:59.480
+Unexpected IOException with stream: 2019-01-06 13:44:59.480  INFO 1955 --- [           main] .SpringBootH2IntegrationApplicationTests : No active profile set, falling back to default profiles: default
+
+
+# Created at 2019-01-06T13:45:00.116
+Unexpected IOException with stream: 2019-01-06 13:45:00.114  INFO 1955 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+
+
+# Created at 2019-01-06T13:45:00.146
+Unexpected IOException with stream: 2019-01-06 13:45:00.146  INFO 1955 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19ms. Found 0 repository interfaces.
+
+
+# Created at 2019-01-06T13:45:00.660
+Unexpected IOException with stream: 2019-01-06 13:45:00.659  INFO 1955 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6bbaa46f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+
+# Created at 2019-01-06T13:45:00.886
+Unexpected IOException with stream: 2019-01-06 13:45:00.885  INFO 1955 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+
+
+# Created at 2019-01-06T13:45:01.064
+Unexpected IOException with stream: 2019-01-06 13:45:01.064  INFO 1955 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+
+
+# Created at 2019-01-06T13:45:01.200
+Unexpected IOException with stream: 2019-01-06 13:45:01.199  INFO 1955 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+
+
+# Created at 2019-01-06T13:45:01.250
+Unexpected IOException with stream: 2019-01-06 13:45:01.249  INFO 1955 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+
+
+# Created at 2019-01-06T13:45:01.252
+Unexpected IOException with stream: 2019-01-06 13:45:01.251  INFO 1955 --- [           main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+
+
+# Created at 2019-01-06T13:45:01.352
+Unexpected IOException with stream: 2019-01-06 13:45:01.352  INFO 1955 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+
+
+# Created at 2019-01-06T13:45:01.470
+Unexpected IOException with stream: 2019-01-06 13:45:01.470  INFO 1955 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+
+
+# Created at 2019-01-06T13:45:01.673
+Unexpected IOException with stream: 2019-01-06 13:45:01.672  INFO 1955 --- [           main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@ceddaf8'
+
+
+# Created at 2019-01-06T13:45:01.675
+Unexpected IOException with stream: 2019-01-06 13:45:01.675  INFO 1955 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+
+
+# Created at 2019-01-06T13:45:02.224
+Unexpected IOException with stream: 2019-01-06 13:45:02.224  INFO 1955 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+
+
+# Created at 2019-01-06T13:45:02.283
+Unexpected IOException with stream: 2019-01-06 13:45:02.282  WARN 1955 --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+
+
+# Created at 2019-01-06T13:45:02.648
+Unexpected IOException with stream: 2019-01-06 13:45:02.647  INFO 1955 --- [           main] .SpringBootH2IntegrationApplicationTests : Started SpringBootH2IntegrationApplicationTests in 18.382 seconds (JVM running for 19.147)
+
+
+# Created at 2019-01-06T13:45:02.665
+Unexpected IOException: 5,1,com.Trial.example.SpringBootH2Integration.SpringBootH2IntegrationApplicationTests,contextLoads(com.Trial.example.SpringBootH2Integration.SpringBootH2IntegrationApplicationTests),null,null,null
+
+
+# Created at 2019-01-06T13:45:02.708
+Unexpected IOException: 6,1,com.Trial.example.SpringBootH2Integration.SpringBootH2IntegrationApplicationTests,contextLoads(com.Trial.example.SpringBootH2Integration.SpringBootH2IntegrationApplicationTests),null,null,null
+
+
+# Created at 2019-01-06T13:45:02.708
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,com.Trial.example.SpringBootH2Integration.SpringBootH2IntegrationApplicationTests,null,null,null
+
+
